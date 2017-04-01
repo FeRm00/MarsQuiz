@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">MarsQuiz</string>
+
+    <string name="mars">Mars</string>
+    <string name="button_result">Result</string>
+
+    <string name="question_1">Question one</string>
+    <string name="question_2">Question two</string>
+    <string name="question_3">Question three</string>
+    <string name="question_4">Question four</string>
+    <string name="question_5">Question five</string>
+    <string name="question_6">Question six</string>
+    <string name="question_7">Question seven</string>
+    
+    <string name="question_text_1">How many Martian moons are there?</string>
+    <string name="question_text_2">How does the atmosphere of Mars differ from the Earth?</string>
+    <string name="question_text_3">How long is a Mars year?</string>
+    <string name="question_text_4">This planet is named after the Roman god Mars. What is he the god of?</string>
+    <string name="question_text_5">Mars is the _____ planet from the Sun.</string>
+    <string name="question_text_6">What\'s the name of the last rover on mars?</string>
+    <string name="question_text_7">What\'s the name of mars moon or moons (Mark all of them).</string>
+
+    <!--
+    Question 1:
+    Correct answer: 2 moons
+    The two Martian moons (dubbed Deimos and Phobos) pale in comparison to the complement of
+    Uranus, which has at least 18 moons.
+    -->
+
+    <string name="question_1_option_1">1 moon.</string>
+    <string name="question_1_option_2">2 moons.</string>
+    <string name="question_1_option_3">5 moons.</string>
+    <string name="question_1_option_4">7 moons.</string>
+
+    <!--
+    Question 2:
+    Correct answer: It's thinner.
+    The atmosphere of Mars consists mainly of carbon dioxide, with some nitrogen and argon
+    -->
+
+    <string name="question_2_option_1">It\'s thinner.</string>
+    <string name="question_2_option_2">It\'s heavier.</string>
+    <string name="question_2_option_3">It\'s relative the same.</string>
+
+    <!--
+    Question 3:
+    Correct answer: 687 days
+    The mean distance of Mars from the sun is about 141 million miles, almost twice that of the
+    Earth's.
+    -->
+
+    <string name="question_3_option_1">408 days.</string>
+    <string name="question_3_option_2">525 days.</string>
+    <string name="question_3_option_3">687 days.</string>
+    <string name="question_3_option_4">Practically the same as the Earth\'s year.</string>
+
+    <!--
+    Question 4:
+    Correct answer: War
+    Ancient people thought the planet looked as red as blood and named it after their war god.
+    -->
+
+    <string name="question_4_option_1">Fire.</string>
+    <string name="question_4_option_2">Love.</string>
+    <string name="question_4_option_3">War.</string>
+    <string name="question_4_option_4">Wine.</string>
+
+    <!--
+    Question 5:
+    Correct answer: Fourth
+    Orbiting about 141.600.000 miles from the sun, Mars is the fourth planet after Mercury, Venus, and Earth
+    -->
+
+    <string name="question_5_option_1">First.</string>
+    <string name="question_5_option_2">Second.</string>
+    <string name="question_5_option_3">Third.</string>
+    <string name="question_5_option_4">Fourth.</string>
+
+    <!--
+    Question 6:
+    Correct answer: Discovery
+    -->
+
+    <string name="question_6_option_1">HINT: Write the name of the las rover.</string>
+
+    <!--
+    Question 7:
+    Correct answer: Fobos & Deimos
+    Calisto & Europa are Jupiter moons.
+    -->
+
+    <string name="question_7_option_1">Fobos.</string>
+    <string name="question_7_option_2">Calisto.</string>
+    <string name="question_7_option_3">Deimos.</string>
+    <string name="question_7_option_4">Europa.</string>
+
+
+
+
+
+</resources>
