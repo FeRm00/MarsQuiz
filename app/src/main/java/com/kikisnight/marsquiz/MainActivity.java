@@ -27,24 +27,20 @@ public class MainActivity extends AppCompatActivity {
 
         int score = 0;
 
-        for (int arrayValue = 0; arrayValue < rightAnswers.length; arrayValue++) {
-
-            RadioButton obtainValue = (RadioButton) findViewById(rightAnswers[arrayValue]);
+        for (int arrayValue : rightAnswers) {
+            RadioButton obtainValue = (RadioButton) findViewById(arrayValue);
             boolean answersCheck = obtainValue.isChecked();
 
             if (answersCheck) {
                 score += 1;
             }
-
         }
 
         /**
          * Question 6: Checking EditText
          */
-
-
         EditText answerQuestionSix = (EditText) findViewById(R.id.questionSixText);
-        String valueEditText = answerQuestionSix.getText().toString();
+        String valueEditText = answerQuestionSix.getText().toString().trim();
 
         if (valueEditText.equals(rightAnswerQuestionSix)) {
             score += 1;
@@ -52,9 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         /**
          * Question 7: Checking CheckBox
-         *
          */
-
         CheckBox checkAnswer1 = (CheckBox) findViewById(R.id.checkAnswer1);
         boolean isCheckAnswer1 = checkAnswer1.isChecked();
         CheckBox checkAnswer2 = (CheckBox) findViewById(R.id.checkAnswer2);
@@ -64,20 +58,14 @@ public class MainActivity extends AppCompatActivity {
         CheckBox checkAnswer4 = (CheckBox) findViewById(R.id.checkAnswer4);
         boolean isCheckAnswer4 = checkAnswer4.isChecked();
 
-
-        if (isCheckAnswer2 || isCheckAnswer4){
-
-        } else if (isCheckAnswer1 && isCheckAnswer3){
+        if (!isCheckAnswer2 && !isCheckAnswer4 && isCheckAnswer1 && isCheckAnswer3){
             score += 1;
         }
-
 
         String toastMessage = "Total score " + score;
 
         Toast totalScore = Toast.makeText(getApplicationContext(), toastMessage, Toast.LENGTH_LONG);
         totalScore.setGravity(Gravity.CENTER_VERTICAL,0,0);
         totalScore.show();
-
     }
-
 }
